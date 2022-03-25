@@ -1,6 +1,6 @@
 {
 	"name": "remark-mermaid-ssr",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Mermaid plugin for remark with server side rendering",
 	"main": "index.js",
 	"repository": "https://github.com/tscpp/remark-mermaid-ssr",
