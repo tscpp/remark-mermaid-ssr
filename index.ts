@@ -200,6 +200,8 @@ export default function mermaid(options: Options) {
 			})
 		);
 
+		browser.close()
+
 		return ast;
 	};
 }
