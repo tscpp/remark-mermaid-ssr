@@ -1,0 +1,26 @@
+{
+	"name": "remark-mermaid-ssr",
+	"version": "0.1.0",
+	"description": "Mermaid plugin for remark with server side rendering",
+	"main": "index.js",
+	"repository": "https://github.com/tscpp/remark-mermaid-ssr",
+	"author": "Elias Skogevall",
+	"license": "MIT",
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"scripts": {
+		"build": "tsc",
+		"prepare": "npm run build"
+	},
+	"dependencies": {
+		"mermaid": "^8.14.0",
+		"puppeteer": "^13.5.1",
+		"unist-util-visit": "^2.0.3"
+	},
+	"devDependencies": {
+		"@types/mermaid": "^8.2.9",
+		"typescript": "^4.6.2"
+	}
+}
