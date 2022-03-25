@@ -200,7 +200,7 @@ export default function mermaid(options: Options) {
 			})
 		);
 
-		browser.close()
+		await browser.close()
 
 		return ast;
 	};
